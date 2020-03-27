@@ -1,6 +1,6 @@
 {
   "name": "npm-package-school",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "NPM Package School",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -8,7 +8,7 @@
     "test": "ts-node node_modules/jasmine/bin/jasmine --config=jasmine.json",
     "coverage": "nyc -r text -e .ts -x \"tests/*.test.ts\" npm run test",
     "build": "tsc --project tsconfig.json",
-    "format": "prettier --write \"src/**/*.ts\"",
+    "format": "exit 0; prettier --write \"src/**/*.ts\"",
     "lint": "tslint -p tsconfig.json",
     "prepare": "npm run build",
     "prepublishOnly": "npm test && npm run lint",

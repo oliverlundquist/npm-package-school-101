@@ -1,7 +1,7 @@
 {
-  "name": "npm-package-school-101",
+  "name": "npm-package-school",
   "version": "1.0.0",
-  "description": "NPM Package School 101",
+  "description": "NPM Package School",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
